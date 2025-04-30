@@ -1,10 +1,10 @@
 body {
-  background-color: aliceblue;
+  background-color: black;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-/*   margin-top: 10%; */
+  margin-top: 10%;
   font-family: Georgia, serif;
 }
 
@@ -15,6 +15,7 @@ html{
 
 #myCanvas {
   border: 1px solid black;
+  background-image: url(  "https://img.freepik.com/free-vector/city-park-sunset-scene-background_1308-32674.jpg?semt=ais_hybrid&w=740")
 }
 
 .container{
@@ -27,15 +28,14 @@ html{
 }
 
 .pic{
-  height: 450px;
-  width: 600px;
+  height: 600px;
+  width: 400px;
   object-fit: cover;
   border: 1px solid black;
 }
 
 h2{
   color: black;
-/*   font-size: 10px; */
 }
 
 #start{
